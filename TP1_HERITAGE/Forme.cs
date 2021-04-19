@@ -3,11 +3,9 @@ using System.Text;
 
 namespace TP1_HERITAGE
 {
-    internal abstract class Forme
+    abstract class Forme
     {
         protected StringBuilder m_StringBuilder = new StringBuilder();
-
-
         protected abstract double getAire();
         protected abstract double getPerimeter();
 
@@ -24,7 +22,6 @@ namespace TP1_HERITAGE
     class Cercle : Forme
     {
         public int Rayon { get; set; }
-
         public override string ToString()
         {
             m_StringBuilder.AppendLine($"Cercle de rayon {Rayon}");
@@ -102,10 +99,7 @@ namespace TP1_HERITAGE
         protected override double getAire()
         {
             double p = getPerimeter() / 2;
-
-            return Math.Sqrt(p*(p - A)*(p - B)*(p - C));
-
-           
+            return Math.Sqrt(p*(p - A)*(p - B)*(p - C));     
         }
 
         protected override double getPerimeter()
