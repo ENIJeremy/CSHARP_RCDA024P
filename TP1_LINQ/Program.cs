@@ -64,7 +64,7 @@ namespace TP1_LINQ
 
             Console.WriteLine();
 
-            Data.ListeLivres.Where(x => x.NbPages > Data.ListeLivres.Average(y => y.NbPages)).ToList().ForEach(z => Console.WriteLine(z));
+            Data.ListeLivres.Where(x => x.NbPages > Data.ListeLivres.Average(y => y.NbPages)).ToList().ForEach(z => Console.WriteLine(z.Titre));
 
 
 
