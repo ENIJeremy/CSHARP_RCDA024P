@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP1_LINQ", "TP1_LINQ\TP1_LI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP1_CHATS", "C:\Users\Krafe\source\repos\TP1_CHATS\TP1_CHATS\TP1_CHATS.csproj", "{BB0654E2-13E3-4601-8A3E-E0B2BD80C443}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP2_PIZZA", "TP2_PIZZA\TP2_PIZZA.csproj", "{8645E8C3-E18E-4EC9-A5D1-55D6E1217AB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BB0654E2-13E3-4601-8A3E-E0B2BD80C443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0654E2-13E3-4601-8A3E-E0B2BD80C443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0654E2-13E3-4601-8A3E-E0B2BD80C443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8645E8C3-E18E-4EC9-A5D1-55D6E1217AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8645E8C3-E18E-4EC9-A5D1-55D6E1217AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8645E8C3-E18E-4EC9-A5D1-55D6E1217AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8645E8C3-E18E-4EC9-A5D1-55D6E1217AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
